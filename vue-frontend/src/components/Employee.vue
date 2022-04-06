@@ -1,7 +1,6 @@
 /* eslint-disable */
+// eslint-disable-next-line
 <template>
-
-<div>
   <div class="container">
     <h1 class="text-center">Employees List</h1>
     <table class="table table-striped">
@@ -12,9 +11,6 @@
       <th>Employee Last Name</th>
       <th>Employee Email</th>
       </thead>
-
-
-
       <tbody>
       <tr v-for="employee in employees" v-bind:key="employee.id">
         <td> {{ employee.id }}</td>
@@ -52,16 +48,11 @@
         </b-row>
       </b-container>
 
-      
+
     </div>
 
   </div>
 
-
-
-
-
-</div>
 
 </template>
 

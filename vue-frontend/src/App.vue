@@ -1,17 +1,22 @@
 <template>
   <div id="app">
+    <Header />
     <Employee />
+
 
   </div>
 </template>
 
 <script>
 import Employee from "@/components/Employee";
+import Header from "@/components/layOut/Header";
+
 
 
 export default {
   name: 'App',
   components: {
+    Header,
     Employee
   }
 }
