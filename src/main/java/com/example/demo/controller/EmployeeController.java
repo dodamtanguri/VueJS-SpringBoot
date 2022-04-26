@@ -18,7 +18,7 @@ import java.util.*;
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
-@CrossOrigin("http://localhost:8082/")
+@CrossOrigin("http://localhost:8081/")
 public class EmployeeController {
 
     private final EmployeeRepository employeeRepository;
